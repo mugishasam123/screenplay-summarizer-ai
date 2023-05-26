@@ -1,0 +1,155 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 63%;
+}
+
+body {
+  height: 100vh;
+  box-sizing: border-box;
+  background-image: url("./movie-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -11;
+  background-color: rgba(0, 0, 0, 0.8); /* set the opacity of the overlay */
+}
+
+.container {
+  z-index: 111;
+  display: flex;
+  padding: 2rem 5rem;
+  margin: auto;
+  justify-content: space-between;
+  /* background-color: rgba(69, 68, 68, 0.8); */
+}
+
+.heading {
+  font-size: 2rem;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.sub__heading {
+  font-size: 1.8rem;
+  text-align: center;
+  padding: 1rem 0;
+  color: rgb(177, 177, 177);
+}
+.form {
+  display: flex;
+  flex-flow: column;
+  width: 40%;
+  background-color: rgba(50, 50, 50, 0.8);
+  padding: 2rem;
+  border-radius: 1.1rem;
+  align-self: baseline;
+}
+
+.response__container {
+  width: 55%;
+  border-radius: 1.1rem;
+  background-color: rgba(50, 50, 50, 0.8);
+  padding: 2rem 4rem;
+}
+
+.error {
+  color: #ff7d7d;
+}
+
+.form__control {
+  display: flex;
+  flex-flow: column;
+  margin-bottom: 1rem;
+}
+
+.form__control > label {
+  margin-bottom: 2px;
+  font-size: 1.4rem;
+}
+
+.form__control > input {
+  border: 2px solid #ededed;
+  padding: 0.6rem;
+  border-radius: 4px;
+}
+
+.btn {
+  align-self: center;
+  width: 40%;
+  padding: 0.9rem 0.3rem;
+  margin: 5px 0;
+  border: none;
+  background-color: #050202;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.list__item {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.o__list {
+  list-style-type: decimal;
+}
+
+.btn:hover {
+  opacity: 0.7;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+.movie_summary {
+  font-size: 15px;
+}
+
+@media screen and (max-width: 745px) {
+  body {
+    height: fit-content;
+  }
+  .container {
+    flex-flow: column-reverse;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 2rem 1rem;
+  }
+
+  .form {
+    width: 100%;
+    align-self: center;
+  }
+
+  .response__container {
+    width: 100%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .card {
+    width: 80%;
+  }
+}
