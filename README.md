@@ -6,7 +6,7 @@
 
 <br/>
 
-![Screenshot from 2023-05-26 23-02-51](https://github.com/mugishasam123/screenplay-summarizer-ai/assets/90524466/2d671ec4-1586-4c47-b2d9-582946290be3)
+![Screenshot from 2023-05-26 23-02-51](https://github.com/mugishasam123/screenplay-summarizer-ai/assets/90524466/5fa51e33-f623-4394-bb1c-01ff677bcb7b)
 <br/>
 
 Additional description about the project and its features.
