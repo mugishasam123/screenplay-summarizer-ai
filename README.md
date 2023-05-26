@@ -1,4 +1,4 @@
-![](https://img.shields.io/badge/MovieRecommend-blue)
+![](https://img.shields.io/badge/MovieSummarizer-blue)
 
 # Movie Summarizer App
 
@@ -6,7 +6,7 @@
 
 <br/>
 
-![Screenshot from 2023-03-17 21-56-14](https://user-images.githubusercontent.com/90524466/226044140-1e74bd4a-0aa4-4b59-8980-65e3164f7ade.png)
+![Screenshot from 2023-05-26 23-02-51](https://github.com/mugishasam123/screenplay-summarizer-ai/assets/90524466/2d671ec4-1586-4c47-b2d9-582946290be3)
 <br/>
 
 Additional description about the project and its features.
